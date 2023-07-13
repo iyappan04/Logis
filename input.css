@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hero-img{
+    width: 30rem;
+    height: 30rem;
+}
+
+
+
+.call{
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url(../img/cta-bg.jpg) center center;
+}
+
+
+

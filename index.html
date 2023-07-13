@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./vendor/bootstrap-icons/bootstrap-icons.css">
+</head>
+<body>
+    
+
+    <!-- header -->
+
+
+    <div class="bg-Secondary bg-no-repeat bg-heroBg bg-contain bg-center">
+
+
+
+        <nav class="container mx-auto px-6 py-4 max-w-6xl pt-6">
+            <div class="container flex flex-col justify-between md:flex-row md:items-center">
+                <div>
+                    <h1 class="text-3xl font-bold text-White">Logis</h1>
+                </div>
+                <div class="hidden flex flex-col items-center space-x-12 md:block md:flex-row text-White">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Services</a>
+                    <a href="#">Feeds</a>
+                    <button type="submit" class="-mt-18 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get A Quote</button>
+                </div>
+            </div>
+        </nav>
+    
+        <section id="home">
+            <div class="container mx-auto flex flex-col-reverse items-center justify-between gy-4 px-6 mt-0 max-w-6xl md:px-6 md:py-4 md:mt-8 md:flex-row md:mt-12 text-White">
+                <div class="space-y-6">
+                    <h1 class="text-4xl max-w-md font-bold">Your Lightning Fast Delivery Partner</h1>
+                    <p class="max-w-md">Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt optio quis sit odio nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam occaecati odio est possimus vel reprehenderit</p>
+                    <form>   
+                        <div class="relative">
+                            <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-White:border-Primary dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Zip Code or City" required>
+                            <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                        </div>
+                    </form>
+
+
+                    <!-- <div class="flex flex-row items-center justify-evenly text-White">
+                        
+                       
+                        <div class="space-y-4 p-4">
+                            <h2 class="text-3xl font-bold">232</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Clients</p>
+                            </div>
+                        </div>
+
+
+                        <div class="space-y-4 p-4">
+                            <h2 class="text-3xl font-bold">789</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Projects</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4 p-4">
+                            <h2 class="text-3xl font-bold">1675</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Services</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4 p-4">
+                            <h2 class="text-3xl font-bold">534</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Workers</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div> -->
+    
+                    <div class="grid grid-cols-2 text-White md:grid-cols-4">
+                        
+                       
+                        <div class="space-y-4 p-4 text-center justify-center items-center">
+                            <h2 class="text-3xl font-bold">232</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Clients</p>
+                            </div>
+                        </div>
+
+
+                        <div class="space-y-4 p-4 text-center justify-center items-center">
+                            <h2 class="text-3xl font-bold">789</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Projects</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4 p-4 text-center justify-center items-center">
+                            <h2 class="text-3xl font-bold">1675</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Services</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4 p-4 text-center justify-center items-center">
+                            <h2 class="text-3xl font-bold">534</h2>
+                            <div class="space-y-4">
+                                <div class="flex justify-center items-center">
+                                    <div class="bg-Primary w-6 h-1">
+                                    </div>
+                                </div>
+                                <p class="font-bold">Workers</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+    
+                <div>
+                    <img src="./img/hero-img.svg" class="hero-img" alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+  
+
+    <!-- items -->
+    <div class="container mx-auto flex flex-col gap-4 md:flex-row items-center text-primary px-6 py-4 max-w-6xl mt-20">
+        <!-- item1 -->
+        <div class="flex flex-row space-x-6">
+            <div>
+                <i class="fa-solid fa-cart-flatbed text-5xl text-Blue hover:text-Primary"></i>
+            </div>
+            <div class="space-y-4">
+                <h1 class="text-2xl font-extrabold">Lorem ipsum </h1>
+                <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum necessitatibus, reprehenderit totam, unde nesciu</p>
+                <p class="font-bold">Learn More  <i class="fa fa-arrow-right text-sm text-Secondary"></i> </p>
+            </div>
+        </div>
+
+        <div class="flex flex-row space-x-6">
+            <div>
+                <i class="fa-solid fa-cart-flatbed text-5xl text-Blue hover:text-Primary"></i>
+            </div>
+            <div class="space-y-4">
+                <h1 class="text-2xl font-extrabold">Lorem ipsum</h1>
+                <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum necessitatibus, reprehenderit totam, unde nesciu</p>
+                <p class="font-bold">Learn More  <i class="fa fa-arrow-right text-sm text-Secondary"></i> </p>
+            </div>
+        </div>
+
+        <div class="flex flex-row space-x-6">
+            <div>
+                <i class="fa-solid fa-cart-flatbed text-5xl text-Blue hover:text-Primary"></i>
+            </div>
+            <div class="space-y-4">
+                <h1 class="text-2xl font-extrabold">Lorem ipsum</h1>
+                <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum necessitatibus, reprehenderit totam, unde nesciu</p>
+                <p class="font-bold">Learn More  <i class="fa fa-arrow-right text-sm text-Secondary"></i> </p>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <!-- About -->
+
+    <div class="container mx-auto max-w-6xl grid grid-cols-1 gap-4 justify-between px-6 md:grid-cols-2 mt-20">
+        <div class="space-y-2">
+            <h1 class="text-2xl font-extrabold text-Blue">About Us</h1>
+            <p class="max-w-[90%]">Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.</p>
+
+
+            <div class="flex flex-row space-x-6 py-6">
+                <div>
+                    <i class="bi bi-diagram-3 text-5xl text-Primary hover:text-Primary"></i>
+                </div>
+                <div>
+                    <p class="max-w-[75%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit obcaecati ea voluptat</p>
+                </div>
+            </div>
+            <div class="flex flex-row space-x-6 py-6">
+                <div>
+                    <i class="bi bi-diagram-3 text-5xl text-Primary hover:text-Primary"></i>
+                </div>
+                <div>
+                    <p class="max-w-[75%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit obcaecati ea voluptat</p>
+                </div>
+            </div>
+            <div class="flex flex-row space-x-6 py-6">
+                <div>
+                    <i class="bi bi-diagram-3 text-5xl text-Primary hover:text-Primary"></i>
+                </div>
+                <div>
+                    <p class="max-w-[75%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit obcaecati ea voluptat</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <img src="./img/about.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!-- Services -->
+
+    <div id="services" class="container mx-auto max-w-6xl px-6 mt-20">
+        <div class="text-center ">
+            <h1 class="heading text-3xl text-Blue font-extrabold">OUR SERVICES</h1>
+            <div class="flex justify-center items-center pt-4">
+                <div class="bg-Primary w-12 h-1">
+                </div>
+            </div>
+        </div>
+
+        <!-- services cards -->
+        <div class="grid grid-cols-1 justify-center items-center md:grid-cols-3 pt-20 gap-12">
+            <div class="border-2">
+                <img src="./img/logistics-service.jpg"  alt="">
+                <div class="px-5 py-5 space-y-6">
+                    <h3 class="text-1xl text-Blue font-extrabold">STORAGE</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, sunt veritatis asperiores numquam</p>
+                </div>
+            </div>
+            
+            <div class="border-2">
+                <img src="./img/logistics-service.jpg"  alt="">
+                <div class="px-5 py-5 space-y-6">
+                    <h3 class="text-1xl text-Blue font-extrabold">STORAGE</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, sunt veritatis asperiores numquam</p>
+                </div>
+            </div>
+
+            <div class="border-2">
+                <img src="./img/packaging-service.jpg"  alt="">
+                <div class="px-5 py-5 space-y-6">
+                    <h3 class="text-1xl text-Blue font-extrabold">STORAGE</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, sunt veritatis asperiores numquam</p>
+                </div>
+            </div>
+        </div>
+
+                <!-- services cards -->
+                <div class="grid grid-cols-1 justify-center items-center md:grid-cols-3 pt-6 gap-12">
+                    <div class="border-2">
+                        <img src="./img/cargo-service.jpg"  alt="">
+                        <div class="px-5 py-5 space-y-6">
+                            <h3 class="text-1xl text-Blue font-extrabold">STORAGE</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, sunt veritatis asperiores numquam</p>
+                        </div>
+                    </div>
+                    
+                    <div class="border-2">
+                        <img src="./img/trucking-service.jpg"  alt="">
+                        <div class="px-5 py-5 space-y-6">
+                            <h3 class="text-1xl text-Blue font-extrabold">STORAGE</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, sunt veritatis asperiores numquam</p>
+                        </div>
+                    </div>
+        
+                    <div class="border-2">
+                        <img src="./img/warehousing-service.jpg"  alt="">
+                        <div class="px-5 py-5 space-y-6">
+                            <h3 class="text-1xl text-Blue font-extrabold">STORAGE</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, sunt veritatis asperiores numquam</p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <!-- call -->
+
+    <div class="bg-callBg bg-fixed text-white call">
+        <div class="container mx-auto max-w-6xl px-6 mt-20 p-20">
+            <div class="flex flex-col space-y-6 items-center space-x-12 text-center">
+                <h1 class="text-3xl text-bold font-extrabold">Call To Action</h1>
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <button type="submit" class="-mt-18 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get A Quote</button>
+            </div>
+        </div>    
+    </div>
+ 
+
+    <!-- provide -->
+
+    <!-- <div class="container mx-auto max-w-6xl mt-20">
+        <div class="flex flex-row items-center gap-12">
+            <div>
+                <img src="./img/features-1.jpg" class="w-auto" alt="">
+            </div>
+            <div class="space-y-4"> 
+                <h2 class="text-2xl font-bold text-Blue">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                  <ul>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis iste expedita m</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                  </ul>
+            </div>
+        </div>
+    </div> -->
+
+
+    
+    <div class="container mx-auto max-w-6xl px-6 mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-5 items-center gap-12">
+            <div class="col-span-2">
+                <img src="./img/features-1.jpg" class="w-auto" alt="">
+            </div>
+            <div class="col-span-3 space-y-4"> 
+                <h2 class="text-2xl font-bold text-Blue">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                  <ul>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis iste expedita m</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+      
+    <div class="container mx-auto max-w-6xl px-6 mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-5 items-center gap-12">
+            <div class="col-span-3 space-y-4"> 
+                <h2 class="text-2xl font-bold text-Blue">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                  <ul>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis iste expedita m</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                  </ul>
+            </div>
+            <div class="col-span-2">
+                <img src="./img/features-2.jpg" class="w-auto" alt="">
+            </div>
+        </div>
+    </div>
+
+       
+    <div class="container mx-auto max-w-6xl px-6 mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-5 items-center gap-12">
+            <div class="col-span-2">
+                <img src="./img/features-3.jpg" class="w-auto" alt="">
+            </div>
+            <div class="col-span-3 space-y-4"> 
+                <h2 class="text-2xl font-bold text-Blue">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                  <ul>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis iste expedita m</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto max-w-6xl px-6 mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-5 items-center gap-12">
+            <div class="col-span-3 space-y-4"> 
+                <h2 class="text-2xl font-bold text-Blue">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                </p>
+                  <ul>
+                      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis iste expedita m</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas est delectus..</li>
+                  </ul>
+            </div>
+            <div class="col-span-2">
+                <img src="./img/features-4.jpg" class="w-auto" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    
+
+
+</body>
+</html>
