@@ -22,7 +22,8 @@ module.exports = {
         Secondary: "#0e1d34",
         White: "#fff",
         Blue: "#001f8d",
-        callBgColor: "linear-gradient(rgba(14, 29, 52, 0.6),rgba(14, 29, 52, 0.6))"
+        callBgColor: "linear-gradient(rgba(14, 29, 52, 0.6),rgba(14, 29, 52, 0.6))",
+        FbgColor: "#dee2e6",
       },
     },
   },
